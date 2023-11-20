@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ping single column coming soon page</title>
+  </head>
+  <body class="font-libre h-screen flex flex-col justify-center items-center">
+    <main
+      class="flex flex-col justify-center items-center w-[85%] max-w-[317px] m-auto lg:max-w-[425px]"
+    >
+      <img
+        src="./img/logo.svg"
+        alt=""
+        class="mb-12 w-[25%] lg:w-[12%] lg:mb-8"
+      />
+      <h1 class="text-[#969696] mb-4 text-2xl lg:text-3xl text-center">
+        We are launching <span class="text-black font-bold">soon!</span>
+      </h1>
+      <p class="mb-6 text-center">Subscribe and get notified</p>
+      <form action="" class="flex flex-col w-[100%] mb-12 lg:flex-row">
+        <div class="lg:relative">
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Your email address..."
+            class="border border-[#497bf4] rounded-3xl py-3 px-8 mb-3 lg:mb-0 lg:mr-3 max-lg:w-[100%]"
+          />
+          <p
+            class="text-center text-[12px] text-[#ff5263] -mt-2 mb-4 hidden hidden-text lg:absolute bottom-[-40px] left-[33px]"
+          >
+            Please provide a valid email address
+          </p>
+        </div>
+
+        <input
+          type="submit"
+          value="Notify Me"
+          class="text-white bg-[#497bf4] hover:bg-[#7095f5] rounded-3xl py-3 cursor-pointer lg:w-[180px]"
+        />
+      </form>
+      <img src="img/illustration-dashboard.png" alt="" class="mb-20" />
+      <div class="flex justify-between w-[45%] mb-6">
+        <div class="border p-2 rounded-[50%]">
+          <img
+            src="/img/facebook.svg"
+            alt=""
+            class="filter-svg w-5 rounded-[50%]"
+          />
+        </div>
+        <div class="border p-2 rounded-[50%]">
+          <img src="./img/logo-twitter.svg" alt="" class="filter-svg w-5" />
+        </div>
+        <div class="border p-2 rounded-[50%]">
+          <img src="/img/instagram.svg" alt="" class="filter-svg w-5" />
+        </div>
+      </div>
+      <p class="text-[#969696] text-[12px] text-center">
+        © Copyright Pings. All rights reserved.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
